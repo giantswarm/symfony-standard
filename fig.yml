@@ -1,0 +1,8 @@
+web:
+  build: .
+  ports:
+    - 8080:80
+  volumes:
+    - .:/var/www
+  environment:
+    <APP_SERVER_NAME>: dev-machine
